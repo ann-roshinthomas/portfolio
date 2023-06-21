@@ -50,40 +50,30 @@
 @media only screen and (max-width: 600px) {
   html {
     font-size: 50%;
+    overflow-x: hidden;
   }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 300px) and (max-width: 1000px) {
   html {
     font-size: 50%;
   }
-}
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-  html {
-    font-size: 50%;
+  .about {
+    height: 55vh;
+  }
+  .about_main {
     flex-direction: column;
   }
-}
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-  html {
-    font-size: 75%;
+  .about_Me {
+    width: 100%;
   }
-}
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
-  html {
-    font-size: 85%;
+  .about_skills {
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 10%;
   }
-}
-
-@media only screen and (min-width: 1400px) {
-  html {
-    font-size: 95%;
+  .skills_skill {
+    margin-left: 0px;
   }
 }

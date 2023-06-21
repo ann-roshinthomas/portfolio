@@ -45,6 +45,7 @@
     white-space: nowrap;
   }
   .home_main-description {
+    width: 300px;
     letter-spacing: 0px;
     white-space: pre;
   }

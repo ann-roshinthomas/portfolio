@@ -1,5 +1,5 @@
 .experience {
-  height: 90vh;
+  height: 100vh;
 }
 .details_main {
   display: flex;
@@ -88,16 +88,22 @@ details > summary {
   justify-content: space-between;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
   .experience_details {
     width: 90%;
     height: fit-content;
   }
   .experience_details-work {
     width: 90%;
+    white-space: pre-wrap;
   }
   .experience_div {
     flex-direction: column;
+  }
+  .details_role,
+  .details_company,
+  .details_date {
+    font-size: 1.2em;
   }
 }
 @media screen and (max-height: 300px) {
@@ -108,5 +114,23 @@ details > summary {
 @media screen and (max-height: 700px) {
   .experience {
     height: 160vh;
+  }
+}
+@media screen and (max-width: 900px) {
+  .experience {
+    height: 80vh;
+  }
+  .exp_list_item {
+    width: 90%;
+  }
+  .experience_details_main {
+    padding: 10px;
+  }
+  .experience_label {
+    text-align: left;
+    margin-bottom: 10px;
+  }
+  .experience_label::after {
+    display: none;
   }
 }

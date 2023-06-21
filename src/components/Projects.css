@@ -73,10 +73,30 @@
   position: absolute;
   top: 50%;
 }
-@media screen and (max-width: 800px) {
-}
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 900px) {
+  .projects_sub_div {
+    flex-direction: column;
+    align-items: center;
+  }
+  .project_details-title {
+    text-align: center;
+  }
   .carousal {
-    margin-top: 10%;
+    width: 55%;
+    height: 30vh;
+    text-align: center;
+  }
+  .project_details {
+    width: 90%;
+  }
+  .projects_label {
+    text-align: left;
+    margin-left: 5%;
+  }
+  .projects_label::after {
+    display: none;
+  }
+  .projects {
+    height: 65vh;
   }
 }

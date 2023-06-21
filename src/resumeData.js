@@ -32,12 +32,7 @@ let resumeData = {
       company: "COGNIZANT",
       role: "Dotnet developer",
       date: "(2013 - 2016)",
-      details: `Web application that aggregates medical records from digital source.
-      • Developed UI elements and backend APIs to digitize patient summary pdfs to user friendly interface
-      • Wrote the UI components which were used by the team to build the whole UI
-      • Wrote the elements to convert the UI into downloadable pdfs of varying sizes and complexity
-      • Create APIs on server side to upload health data to the database
-      • Create API methods for audit and error logging`,
+      details: `Developed applications using ASP.net, C# and SQL`,
     },
   ],
   // education: [

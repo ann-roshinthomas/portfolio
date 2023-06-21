@@ -1,5 +1,5 @@
 .testimonial {
-  height: 100vh;
+  height: 90vh;
   scroll-margin-top: 100px;
 }
 .testimonial_div {
@@ -65,15 +65,21 @@
   margin-left: 10px;
   color: black;
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 900px) {
   .testimonial_list {
     flex-direction: column;
   }
   .testimonial_recommendation {
-    font-size: 1em;
+    font-size: 1.5em;
   }
   .testimonial_card {
     margin: 0;
     width: 85%;
+  }
+  .testimonial_label {
+    text-align: left;
+  }
+  .testimonial_label::after {
+    display: none;
   }
 }
