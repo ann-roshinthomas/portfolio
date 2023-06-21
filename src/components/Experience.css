@@ -1,0 +1,112 @@
+.experience {
+  height: 90vh;
+}
+.details_main {
+  display: flex;
+}
+.details_company {
+  display: block;
+  font-size: large;
+  color: white;
+}
+.details_role {
+  display: block;
+  font-size: medium;
+  color: white;
+}
+.details_date {
+  display: block;
+  font-size: small;
+  color: white;
+}
+.details_main-title {
+  margin-left: 10px;
+}
+.experience_details {
+  width: 100%;
+  background-color: #333652;
+  color: #36454f;
+  padding: 1%;
+  border-radius: 15px;
+  margin-bottom: 2%;
+  cursor: pointer;
+}
+.experience_main {
+  margin: 5%;
+  margin-left: 10%;
+  width: 100%;
+}
+.experience_details_main {
+  display: flex;
+}
+.experience_details-title {
+  margin-left: 10px;
+}
+.experience_details-work {
+  padding-left: 1%;
+  white-space: pre;
+}
+
+.exp_icon_line {
+  background-color: white;
+  height: 40px;
+  width: 2px;
+  margin-left: 35%;
+}
+.logo {
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+}
+.experience_label {
+  font-size: 2em;
+  margin-bottom: 50px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  /* margin-left: 5%; */
+  text-align: center;
+  position: relative;
+}
+.experience_label::after {
+  content: "";
+  position: absolute;
+  top: calc(100% + 0.5em);
+  height: 5px;
+  width: 3em;
+  background: #fada5e;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 5px;
+}
+
+details > summary {
+  list-style-type: none;
+}
+
+.experience_div {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 400px) {
+  .experience_details {
+    width: 90%;
+    height: fit-content;
+  }
+  .experience_details-work {
+    width: 90%;
+  }
+  .experience_div {
+    flex-direction: column;
+  }
+}
+@media screen and (max-height: 300px) {
+  .experience {
+    height: 50vh;
+  }
+}
+@media screen and (max-height: 700px) {
+  .experience {
+    height: 160vh;
+  }
+}

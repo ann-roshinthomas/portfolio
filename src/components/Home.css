@@ -1,0 +1,51 @@
+.home {
+  background-image: url(./../images/home.png);
+  background-color: grey;
+  width: 100%;
+  min-width: 100%;
+  color: #fff;
+  background-position: center;
+  height: 100vh;
+  max-height: 100em;
+  position: relative;
+}
+.home_main {
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  max-width: 90em;
+  width: 32%;
+}
+
+.home_main-salute {
+  color: white;
+  font-size: 1.7em;
+}
+.home_main-description {
+  color: white;
+  font-size: 1.5em;
+}
+.home_main-name {
+  font-size: 3.2em;
+  letter-spacing: 1px;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+}
+
+.home-hero__social-icon {
+  height: 30px;
+  width: 30px;
+}
+@media only screen and (min-width: 300px) {
+  .home_main-name {
+    letter-spacing: 0px;
+    white-space: nowrap;
+  }
+  .home_main-description {
+    letter-spacing: 0px;
+    white-space: pre;
+  }
+}
