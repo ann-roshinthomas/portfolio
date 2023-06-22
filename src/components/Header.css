@@ -8,6 +8,7 @@
   z-index: 1000;
   background-color: #fada5e;
   /* box-shadow: 0 10px 100px rgba(0, 0, 0, 0.1); */
+  overflow-x: hidden;
 }
 .banner-text {
   display: flex;
@@ -44,7 +45,7 @@
 
 .header_links-title {
   flex-shrink: 1;
-  padding: 2.2em 3em;
+  padding: 0em 3em;
   display: inline-block;
   font-size: 0.8 em;
   color: #36454f;

@@ -71,9 +71,9 @@ let resumeData = {
     {
       title: "Risk Profile Gateway",
       images: [riskprofile1, riskprofile2, riskprofile3],
-      projectDescription: `Risk Profile Gateway is a Cognizant product which digitizes and expedites health data retrieval enabling life insurers to process more policy applications faster. 
-               I developed the dashboard screen in an easy to read format which enabled the underwriters to quickly understand the patient history. 
-               This was developed on the tech stack of React/Redux/NodeJS/MySQL. 
+      projectDescription: `This is a Cognizant product which digitizes and expedites health data retrieval enabling life insurers to process more policy applications faster. 
+               I created the main dashboard screens in an easy to read format which enabled the underwriters to quickly understand patient history. In addition, I also developed other frontend and backend capabilities.
+               This application was developed on a tech stack of React/Redux/NodeJS/MySQL. 
       `,
     },
   ],
