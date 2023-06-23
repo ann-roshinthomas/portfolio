@@ -1,5 +1,6 @@
 .experience {
   height: 100vh;
+  scroll-margin-top: 120px;
 }
 .details_main {
   display: flex;
@@ -137,5 +138,6 @@ details > summary {
 @media screen and (max-width: 600px) {
   .experience {
     height: fit-content;
+    scroll-margin-top: 120px;
   }
 }

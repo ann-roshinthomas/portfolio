@@ -77,7 +77,7 @@ function Header({ resumeData }) {
           }`}
         >
           <div className="header__sm-menu-content">
-            <ul className="header__sm-menu-links">
+            <ul className="header__sm-menu-links" onClick={toggleHamburger}>
               <li className="header__sm-menu-link">
                 <a href="./"> Home </a>
               </li>
