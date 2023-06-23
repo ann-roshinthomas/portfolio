@@ -7,7 +7,7 @@ import Testimonials from "./Testimonials";
 import Projects from "./Projects";
 import Hamburger from "./Hamburger";
 
-import imgIcon from "../images/roshin.JPG";
+import imgIcon from "../images/roshin.jpg";
 import "./Header.css";
 
 function Header({ resumeData }) {
@@ -79,7 +79,7 @@ function Header({ resumeData }) {
           <div className="header__sm-menu-content">
             <ul className="header__sm-menu-links" onClick={toggleHamburger}>
               <li className="header__sm-menu-link">
-                <a href="./"> Home </a>
+                <a href="./#home"> Home </a>
               </li>
 
               <li className="header__sm-menu-link">

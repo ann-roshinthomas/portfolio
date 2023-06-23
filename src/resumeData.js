@@ -34,21 +34,10 @@ let resumeData = {
       details: `Developed applications using ASP.net, C# and SQL`,
     },
   ],
-  // education: [
-  //   {
-  //     institution: "CUSAT",
-  //     degree: "Bachelors of Engineering - Computer Science",
-  //     date: "2008-2012",
-  //   },
-  //   {
-  //     institution: "Marthoma Residential School",
-  //     degree: "ISC",
-  //     date: "2006-2008",
-  //   },
-  // ],
-  aboutMe: ` I'm a multi-dimensional Web Developer experienced in developing enterprise Web Applications through the whole life cycle, from prototyping to production. I currently work on the tech stack of React & NodeJS .
-  I am experienced in working in an agile environment and led my co-located team, as a Scrum Master in an AGILE work environment.   
-  I have developed enterprise Web Applications through the whole life cycle,from prototyping to production. I currently work on the tech stack of React & NodeJS. `,
+  aboutMe: ` As a multi-dimensional Web Developer, I am passionate about creating functional and user-friendly web experiences. I have built enterprise Web Applications through the whole life cycle, from prototyping to production. I am deeply enthusiastic about building dynamic and interactive web applications to bring innovative ideas to life.
+
+  I am a very organized and self-driven individual, and as a Scrum Master, I've led co-located teams in an agile setting.
+   `,
 
   skills: [
     "React",

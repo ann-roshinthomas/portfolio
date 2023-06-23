@@ -35,11 +35,10 @@
   text-align: center;
   text-transform: uppercase;
   font-family: sans-serif;
-  -webkit-text-stroke: 1px #36454f;
-
   background-clip: text;
   -webkit-background-clip: text;
-  -webkit-text-fill-color: #fada5e;
+  -webkit-text-fill-color: #36454f;
+  margin-left: 10%;
 }
 
 .home-hero__social-icon {
@@ -85,12 +84,17 @@
     background-image: url(./../images/home-iphone.jpg);
   }
   .home_main {
-    left: 24%;
+    left: 23%;
   }
   .home_main-name {
     margin-left: 15%;
   }
   .social_icons {
     margin-left: 40%;
+  }
+}
+@media only screen and (max-width: 375px) {
+  .home_main {
+    left: 20%;
   }
 }
