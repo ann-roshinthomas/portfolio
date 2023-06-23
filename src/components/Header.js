@@ -1,15 +1,21 @@
-import { Fragment } from "react";
+import { Fragment, useState } from "react";
 import { HashLink } from "react-router-hash-link";
 import About from "./About";
 import Home from "./Home";
 import Experience from "./Experience";
 import Testimonials from "./Testimonials";
 import Projects from "./Projects";
+import Hamburger from "./Hamburger";
 
 import imgIcon from "../images/roshin.JPG";
 import "./Header.css";
 
 function Header({ resumeData }) {
+  const [hamburgerOpen, setHamburgerOpen] = useState(false);
+
+  const toggleHamburger = () => {
+    setHamburgerOpen(!hamburgerOpen);
+  };
   return (
     <Fragment>
       <header className="header">
@@ -61,6 +67,37 @@ function Header({ resumeData }) {
             </li>
           </ul>
         </nav>
+
+        <div className="hamburger" onClick={toggleHamburger}>
+          <Hamburger hamburgerOpen={hamburgerOpen} />
+        </div>
+        <div
+          className={`header__sm-menu ${
+            hamburgerOpen ? "header__sm-menu--active" : ""
+          }`}
+        >
+          <div className="header__sm-menu-content">
+            <ul className="header__sm-menu-links">
+              <li className="header__sm-menu-link">
+                <a href="./"> Home </a>
+              </li>
+
+              <li className="header__sm-menu-link">
+                <a href="./#about"> About </a>
+              </li>
+              <li className="header__sm-menu-link">
+                <a href="./#experience"> Experience </a>
+              </li>
+              <li className="header__sm-menu-link">
+                <a href="./#projects"> Projects </a>
+              </li>
+
+              <li className="header__sm-menu-link">
+                <a href="./#testimonials"> Testimonials </a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </header>
       <Home resumeData={resumeData} />
       <About resumeData={resumeData} />

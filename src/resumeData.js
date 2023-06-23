@@ -3,8 +3,7 @@ import riskprofile2 from "./images/riskprofile2.png";
 import riskprofile3 from "./images/riskprofile3.png";
 let resumeData = {
   fullName: "Ann Roshin Thomas",
-  description:
-    "A full stack developer focussed on turning ideas into real products",
+  description: "A full stack developer focussed on turning ideas into reality!",
   experience: [
     {
       company: "HEWLETT PACKARD ENTERPRISE",
