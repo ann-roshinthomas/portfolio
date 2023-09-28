@@ -140,3 +140,9 @@
 .header__sm-menu-link-last {
   border-bottom: 0;
 }
+
+@media only screen and (min-width: 1000px) and (max-width: 1300px) {
+  html {
+    font-size: 70%;
+  }
+}
